@@ -1,0 +1,622 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #247ee6, #000A14);
+}
+.header{
+  background-image: linear-gradient(90deg, #011b38, #0856bd);
+  position: fixed;
+  width: 100%;
+}
+.header-container{
+  max-width: 1500px;
+  flex: 1;
+  display:flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 3px 5px;
+  /* position: fixed; */
+}
+.header-image{
+  margin: 0;
+}
+.header-list ol{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+}
+.header-list a{
+  color: #FFFFFF;
+  font-size: 21px;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+.header-list a img{
+  border-radius: 50%;
+}
+
+
+/* aqui comienza el main  */
+.main-container{
+  max-width: 1500px;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 70px;
+  align-items: center;
+}
+.main-image{
+  width: 50%;
+}
+.main-image img{
+  width: 100%;
+}
+.main-hero{
+  width: 50%;
+  padding-right: 10px;
+}
+.main-titleh1{
+  display: flex;
+  align-items: center;
+}
+.main-titleh1 h1{
+  font-size: 47px;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+.main-hero p{
+  font-size: 37px;
+  color: #FFFFFF;
+  font-weight: 200;
+}
+.main-hero form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container form input{
+  width: 260px;
+  height: 33px;
+  background-color: #00152E;
+  border: 1px solid #035BC1;
+  border-radius: 10px;
+  font-size: 19px;
+  color: #757575;
+  text-align: center;
+  /* padding-left: 15px; */
+}
+.main-container form button{
+  width: 260px;
+  height: 34px;
+  background: linear-gradient(#0076FF, #000980);
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #00152E;
+  color: #FFFFFF;
+  border: none;
+  /* align-self: center; */
+  /* margin-left: 30px; */
+}
+
+
+/* aqui comienzan los diseños de las plantillas */
+.diseño-container{
+  max-width: 1500px;
+  flex: 1;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 8px 60px 8px;
+}
+.diseño-container hr{
+  width: 80px;
+  margin-left: 0;
+}
+.diseño-container h2{
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 5px;
+  width: 800px;
+}
+.diseño-caja-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.diseño-caja-contVer{
+  width: 600px;
+  height: 300px;
+  border: 2px solid #0076FF;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 40px;
+  margin: 15px;
+}
+/* dato: con un selector id mande a llamar a las cajas y les puse una imafen como fondouj  */
+#web1{
+  background-image: url(../image/diseño-web1.png);
+}
+#web2{
+  background-image: url(../image/diseño-web2.png);
+}
+#web3{
+  background-image: url(../image/diseño-we3.png);
+}
+#web4{
+  background-image: url(../image/diseño-web4.png);
+}
+
+.diseño-ver{
+  margin: 15px 0 0 15px;
+  height: 65px;
+  width: 65px;
+  border: 2px solid #0076FF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+.diseño-ver a{
+  font-size: 36px;
+  color: #0076FF;
+  text-decoration: none;
+}
+.diseños-leter{
+  background-color: rgba(0, 0, 0, 0.63);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.diseños-leter p{
+  margin: 0;
+  font-size: 36px;
+  color: #0076FF;
+  padding: 10px 15px;
+  padding-bottom: 15px;
+}
+.diseños-url-cont{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.diseños-url{
+  font-size: 32px;
+  background-color: #0076FF;
+  padding: 10px 25px;
+  box-shadow: 5px 5px 10px #00152E;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* aqui comienza ventajas de trabajar conmigo */
+.ventajas{
+  max-width: 1500px;
+  flex: 1;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+.ventajas hr{
+  width: 80px;
+  margin-left: 0;
+}
+.ventajas-conth3 h2{
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+  color: #FFFFFF;
+  /* font-size: 40px; */
+  /* font-weight: 200; */
+  letter-spacing: 5px;
+}
+.ventajas-contParrafos{
+  color: white;
+  font-size: 29px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 200;
+}
+.ventajas-contParrafos li{
+  margin: 25px;
+}
+.ventajas-mini{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.ventajas-minicont{
+  display: flex;
+  width: 600px;
+  flex-shrink: 0;
+  margin-bottom: 50px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-size: 29px;
+  color: white;
+  align-items: center;
+}
+.ventajas-minicont img{
+  width: 53px;
+  height: 53px;
+  margin-left: 10px;
+}
+.ventajas-minicont p{
+  margin-left: 25px;
+}
+/* dato: le di un fondo degradado a as ventajas-minicont */
+#ven1{
+  background: linear-gradient(90deg, #000A14, #281B9F);
+}
+#ven2{
+  background: linear-gradient( 90deg, #001a38, #0076FF);
+
+}
+#ven3{
+  background: linear-gradient(90deg, #0D0101, #5E0101);
+}
+#ven4{
+background: linear-gradient(90deg, #00130B, #004A2A);
+}
+
+/* aqui comienza las opiniones */
+.opiniones{
+  max-width: 1500px;
+  flex: 1;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+.opiniones h2{
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 5px;
+
+}
+.opiniones hr{
+  width: 80px;
+  margin: 0;
+}
+.opiniones-cont{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.opiniones-contS{
+  /* background-color: rgb 181, 181, 181); */
+  background: rgba(121, 121, 121, 0.315);
+  width: 25%;
+  padding: 20px;
+  border-radius: 15px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+.opiniones-cont-name{
+  display: flex;
+  align-items: center;
+}
+.opi-cont-name{
+  color: white;
+  font-size: 27px;
+  margin: 10px;
+}
+.opi-cont-p{
+  font-size: 21px;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* .line-vertical{
+  width: 5px;
+  height: 100px;
+  border-color: #034d9c;
+  background-color: #034d9c;
+  border-style: solid;
+} */
+
+/* aqui comienza pie informacion */
+.pieinfo{
+  background: linear-gradient(90deg, #07305B, #02182F);
+}
+.pieinfo-cont{
+  display: flex;
+  max-width: 1500px;
+  flex: 1;
+  margin: 0 auto;
+  align-items: center;
+  padding: 15px;
+}
+.pieinfo-form form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pieinfo p{
+  width: 25%;
+  font-size: 29px;
+  color: #0076FF;
+}
+.pieinfo-hr{
+  width: 4px;
+  height: 252px;
+  border: none;
+  background-color: #034d9c;
+}
+.pieinfo-form{
+  width: 25%;
+}
+.pieinfo-form h2{
+  font-size: 32px;
+  color: #0076FF;
+  text-align: center;
+}
+.pieinfo-form input{
+  height: 39px;
+  width: 267px;
+  font-size: 19px;
+  background-color: #00152E;
+  color: #757575;
+  border-color: #035BC1;
+  border-radius: 10px;
+  text-align: center;
+}
+.pieinfo-form button{
+  width: 215px;
+  height: 39px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, #0076FF, #05097B);
+  color: wheat;
+}
+.pieinfo-image-cont{
+  margin: 0;
+  width: 25%;
+}
+.pieinfo-image-cont a{
+  text-decoration: none;
+}
+.pieinfo-image-cont img{
+  margin: 20px;
+  border: 3px solid #0076FF;
+  border-radius: 50%;
+}
+
+
+/* aqui comienza el footer */
+.footer{
+  background-color: #001224;
+}
+.footer-cont{
+  max-width: 1500px;
+  flex: 1;
+  margin: 0 auto;
+  padding: 15px;
+}
+.footer-url{
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  padding-top: 25px;
+}
+.footer-url p{
+  margin: 0;
+  color: #4A709C;
+}
+.footer-url a{
+  color: #4A709C;
+  margin-left: 25px;
+}
+.footer-final{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #4A709C;
+  align-items: center;
+  margin-top: 25px;
+}
+.footer-final p{
+  margin-right: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1290px){
+  .diseño-caja-contVer{
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1150px){
+  .main-hero form{
+    flex-direction: column;
+  }
+  .main-hero form input{
+    margin-bottom: 15px;
+  }
+  .main-titleh1 h1{
+    font-size: 30px;
+  }
+  .main-hero p{
+    font-size: 25px;
+  }
+  .diseño-caja-contVer{
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .pieinfo-cont p{
+    font-size: 23px;
+  }
+  .footer-url{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-url p{
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 850px){
+  .diseño-container h2{
+    width: 90%;
+    font-size: 30px;
+  }
+  .ventajas-conth3 h2{
+    font-size: 30px;
+  }
+  .ventajas-contParrafos{
+    font-size: 20px;
+  }
+  .ventajas-minicont{
+    width: 90%;
+  }
+  .opiniones h2{
+    font-size: 30px;
+  }
+  .header-list a{
+    font-size: 15px;
+  }
+  .header-list img{
+    width: 30px;
+  }
+  .header-image img{
+    width: 150px;
+  }
+  .main-container{
+    flex-direction: column;
+  }
+  .main-image{
+    width: 80%;
+  }
+  .main-hero{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-hero p{
+    text-align: center;
+  }
+  .main-container form input{
+    width: 320px;
+  }
+  .diseño-container{
+    margin-top: 0;
+  }
+  .diseño-caja-contVer{
+    width: 90%;
+    height: 300px;
+  }
+  .opiniones-contS{
+    width: 40%;
+  }
+  .pieinfo-cont{
+    flex-direction: column;
+  }
+  .pieinfo-hr{
+    display: none;
+  }
+  .pieinfo-cont p{
+    width: auto;
+    text-align: center;
+  }
+  .pieinfo-form{
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .pieinfo-form input{
+    width: 450px;
+  }
+  .pieinfo-image-cont{
+    width: auto;
+  }
+
+@media screen and (max-width: 650px){
+  .footer-url div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer a{
+    margin-bottom: 10px;
+  }
+  .ventajas-contParrafos{
+    flex-wrap: wrap;
+  }
+  .ventajas-contParrafos li{
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 520px){
+  .header-list a{ 
+    margin-left: 15px;
+  }
+  .header-list ol{
+    padding-left: 0;
+  }
+  .header-image img{
+    width: 120px;
+  }
+  .main-hero form{
+    width: 100%;
+  }
+  .main-hero form input{
+    width: 90%;
+  }
+  .diseño-caja-contVer{
+    height: 200px;
+  }
+  .ventajas-minicont{
+    font-size: 19px;
+  }
+  .opiniones-contS{
+    width: 90%;
+  }
+  .pieinfo-form input{
+    width: 100%;
+  }
+  .pieinfo-image-cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer-url{
+    font-size: 19px;
+  }
+  .footer-final{
+    font-size: 19px;
+  }
+  .footer-final img{
+    width: 150px;
+  }
+  .diseño-ver a{
+    font-size: 30px;
+  }
+  .diseños-leter p{
+    font-size: 25px;
+  }
+  .opi-cont-name{
+    font-size: 23px;
+  }
+  .opi-cont-p{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 400px){
+  .header-list a{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .diseño-caja-contVer{
+    height: 160px;
+  }
+}
